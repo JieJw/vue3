@@ -18,6 +18,8 @@ module.exports = {
     resolve: {
       alias: {
         '@components': resolve('./src/components'),
+        src: resolve('./src'),
+        modules: resolve('./src/modules'),
       },
     },
   },
